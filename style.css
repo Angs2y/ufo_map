@@ -1,9 +1,9 @@
 /* Убираем флаг в атрибутах */
-.leaflet-attribution-flag {display: none !important;}
+	.leaflet-attribution-flag {display: none !important;}
 
 /* Стили для легенды */
-.legend {
-			color: #555;
+		.legend {
+			color: #FFFFE0;
 			padding: 6px 8px;
 			font: 12px Arial, Helvetica, sans-serif;
 			font-weight: bold;
@@ -41,7 +41,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif; /* Основной шрифт для всей страницы */
     background-color: #FFFFE0; /* Фон страницы */
-    color: #8B008B; /* Цвет текста по умолчанию */
+    color: #008B8B; /* Цвет текста по умолчанию */
     display: flex; /* Включаем flexbox для всего содержимого body */
     flex-direction: column; /* Расположение блоков вертикально (сверху-вниз) */
     height: 100vh; /* Высота body равна высоте окна браузера */
@@ -51,8 +51,8 @@ body {
 /* Шапка */
 #header {
     background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%); /* Окраска фона. В данном случае применен градиент (хотя может быть просто цвет) */
-    color: #8B008B; /* Цвет текста */
-    padding: 21px; /* Внутренний отступ вокруг содержимого */
+    color: #008B8B; /* Цвет текста */
+    padding: 20px; /* Внутренний отступ вокруг содержимого */
     text-align: center; /* Выравнивание текста */
 	box-shadow: 0 4px 8px rgba(0,0,0,0.6); /* Тень для визуального отделения от соседних блоков */
     z-index: 100; /* Уровень перекрытия — поверх большинства других элементов */
@@ -80,7 +80,7 @@ body {
 #map-container {
     width: 70%; /* Ширина блока map-container относительно блока main-container*/
 	height: 100%; /* Высота блока map-container относительно блока main-container */
-    background-color: #252525; /* Фоновый цвет блока */
+    background-color: #FFFFE0; /* Фоновый цвет блока */
     position: relative; /* Тип позиционирования блока: относительное */
 }
 
@@ -105,14 +105,14 @@ body {
 
 /* Заголовки 2-го уровня в Блоке текста */
 #text-container h2 {
-    color: #8B008B; /* Цвет */
+    color: #008B8B; /* Цвет */
     margin-bottom: 15px; /* Отступ снизу */
     font-size: 20px; /* Размер шрифта */
 }
 
 /* Абзацы в Блоке текста */
 #text-container p {
-    color: #8B008B; /* Цвет */
+    color: #008B8B; /* Цвет */
 	line-height: 1.6; /* Межстрочный интервал */
     margin-bottom: 15px; /* Отступ снизу */
 }
@@ -120,8 +120,8 @@ body {
 /* Подвал */
 #footer {
     background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%); /* Окраска фона. В данном случае применен градиент (хотя может быть просто цвет) */
-    color: #8B008B; /* Цвет текста */
-    padding: 14px; /* Внутренний отступ вокруг содержимого */
+    color: #008B8B; /* Цвет текста */
+    padding: 15px; /* Внутренний отступ вокруг содержимого */
     text-align: center; /* Выравнивание текста */
     box-shadow: 0 -4px 8px rgba(0,0,0,0.6); /* Тень для визуального отделения от соседних блоков */
     font-size: 14px; /* Размер шрифта */
